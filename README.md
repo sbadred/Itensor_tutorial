@@ -12,8 +12,5 @@ https://itensor.github.io/ITensors.jl/stable/ITensorType.html
 Pyscf
 https://pyscf.org/install.html
 
-# Quick start
-```
-using ITensor_tutorial
-(ITensor_tutorial) pkg> test
-```
+ 
+
