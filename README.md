@@ -14,6 +14,6 @@ https://pyscf.org/install.html
 
 # Quick start
 ```
-using using  ITensor_tutorial
+using ITensor_tutorial
 (ITensor_tutorial) pkg> test
 ```
