@@ -1,4 +1,5 @@
 println("Testing...")
+using  ITensor_tutorial
 using Test 
 using BenchmarkTools
 include("../src/FCIDUMP.jl")

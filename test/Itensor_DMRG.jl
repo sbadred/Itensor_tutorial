@@ -2,8 +2,7 @@
 @testset "ITensor quantum chemical Hamiltonian" begin
     MOLECULE = "h4"
     δ = 1e-7
- 
-    data = "data/fcidump_files/FCIDUMP." * MOLECULE
+     data = "../data/fcidump_files/FCIDUMP." * MOLECULE
     Vnn, nsites,N, h, v = read_electron_integral_tensors(data)
     
     #ITensor
