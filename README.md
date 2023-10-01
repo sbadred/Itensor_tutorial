@@ -12,6 +12,10 @@ https://itensor.github.io/ITensors.jl/stable/ITensorType.html
 Pyscf
 https://pyscf.org/install.html
 
+# References
+
+https://github.com/mtfishman/ITensorChemistry.jl/tree/main/src 
+
 # Quick start
 ```
 using ITensor_tutorial
