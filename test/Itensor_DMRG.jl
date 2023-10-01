@@ -20,7 +20,6 @@
     random_mps = ITensors.randomMPS(sites,MPS_rank)
 
     @info "Creation of mpo"
-    #Mpo =ITensors_MPO(sites,h, v,tol=δ)
     Mpo =ITensor_MPO(sites,h, v,tol=δ)
 
     @timev energy_ITensors,Ψ=ITensors.dmrg(Mpo, random_mps,sweeps,eigsolve_krylovdim=2);
